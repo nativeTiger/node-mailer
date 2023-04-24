@@ -6,6 +6,6 @@ app.get("/", (req, res) => {
   return res.send("Hello world");
 });
 
-mailSend("kiran", "santakumal41@gmail.com");
+mailSend("xyz", "xyz@gmail.com");
 
 app.listen(5000, () => console.log("app running on port 5000"));
